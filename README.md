@@ -6,8 +6,8 @@ This module installs the latest stable bash shell that's been cross compiled for
 * All root solutions
 
 ## Change Log
-### v1.0 - 12.xx.2018
-* Initial rerelease
+### v1.0 - 12.17.2018
+* Initial release
 
 ## Credits
 * [GNU](https://www.gnu.org/software/bash/)
