@@ -6,6 +6,9 @@ This module installs the latest stable bash shell that's been cross compiled for
 * All root solutions
 
 ## Change Log
+### v1.4 - 1.5.2019
+* Unity v3.0 update
+
 ### v1.3 - 12.23.2018
 * Unity v2.2 update
 
