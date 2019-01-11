@@ -1,7 +1,7 @@
 id=bash
 name=Bash For Android
 version=v1.5 (4.4.23 Stable)
-versionCode=6
+versionCode=7
 author=zackptg5
 description=Latest stable bash cross-compiled for android
 minMagisk=1530
