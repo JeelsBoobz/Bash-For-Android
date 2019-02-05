@@ -6,6 +6,10 @@ This module installs the latest stable bash shell that's been cross compiled for
 * All root solutions
 
 ## Change Log
+### v2.1 - 2.4.2019
+* Use 32bit binaries compatible with api 17 and newer to be inline with magisk minapi
+* Update Unity from test branch for minapi of 17
+
 ### v2.0 - 1.15.2019
 * Updated to Bash 5.0
 * Unity v3.2 update
