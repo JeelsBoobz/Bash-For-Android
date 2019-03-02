@@ -76,7 +76,7 @@ REPLACE="
 ##########################################################################################
 
 set_permissions() {
-  set_perm $UNITY/system/bin/bash 0 0 0755
+  set_perm_recursive $UNITY/system/bin 0 2000 0755 0755
 
   # Note that all files/folders have the $UNITY prefix - keep this prefix on all of your files/folders
   # Also note the lack of '/' between variables - preceding slashes are already included in the variables

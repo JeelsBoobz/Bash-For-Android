@@ -6,6 +6,9 @@ This module installs the latest stable bash shell that's been cross compiled for
 * All root solutions
 
 ## Change Log
+### v3.1 - 3.1.2019
+* Fix weird display name with bash (now shows 'bash5.0' or whatever like it should)
+
 ### v3.0 - 2.25.2019
 * Updated Bash to 5.0.2
 * Added arm64 binary - huge thanks to ianmacd @xda-developers for the compiling help
