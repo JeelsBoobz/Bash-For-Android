@@ -6,6 +6,10 @@ This module installs the latest stable bash shell that's been cross compiled for
 * All root solutions
 
 ## Change Log
+### v3.2 - 3.28.2019
+* Bind mount replace /system/bin/sh as late_start service so all shells will open with bash but won't mess with boot
+* Unity v4.0 update
+
 ### v3.1 - 3.1.2019
 * Fix weird display name with bash (now shows 'bash5.0' or whatever like it should)
 
