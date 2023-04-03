@@ -12,7 +12,7 @@ jobs:
           echo ::set-output name=release::$(cat module.prop | grep version= | awk -F'=' '{print $2}')
           echo ::set-output name=releaseCode::$(cat module.prop | grep versionCode= | awk -F'=' '{print $2}')
       - name: Build
-        run: zip -r Bash_For_Android_${{ steps.version.outputs.release}}.zip ./ -x '*.git*' -x '*.md' -x '*.json'
+        run: zip -r 'Bash_For_Android_${{ steps.version.outputs.release}}.zip' ./ -x '*.git*' -x '*.md' -x '*.json'
       - name: Delete tag ${{ steps.version.outputs.release}} if exists
         uses: dev-drprasad/delete-tag-and-release@v0.2.1
         with:
